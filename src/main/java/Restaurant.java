@@ -79,7 +79,7 @@ public class Restaurant {
     }
 
 
-
+/*
     //Edited Code
     private List<Item> addedItems = new ArrayList<>();
     public List<Item> getAddedItems() {
@@ -106,5 +106,5 @@ public class Restaurant {
             cartAmount += (int) item.getPrice();
         }
         return cartAmount;
-    }
+    }*/
 }

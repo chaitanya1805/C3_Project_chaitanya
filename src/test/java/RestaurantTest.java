@@ -67,7 +67,7 @@ class RestaurantTest {
                 ()->restaurant.removeFromMenu("French fries"));
     }
 
-    @Test
+    /*@Test
     public void If_added_119Rs_SweetCornSoup_addedToCart_Only_119Rs_should_be_Returned(){
         restaurant.addToMenu("Sweet corn soup",119);
         restaurant.addToMenu("Vegetable lasagne", 269);
@@ -90,7 +90,7 @@ class RestaurantTest {
 
         int grandTotal=restaurant.grandTotal(restaurant.getAddedItems());
         assertEquals(388,grandTotal);
-    }
+    }*/
 
     /*@Test
     public void check_menu_assigned_to_each_restaurant_individual_AND_not_generic_menu_for_all_restaurant(){
